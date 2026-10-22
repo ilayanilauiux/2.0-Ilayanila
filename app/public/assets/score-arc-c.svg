@@ -1,0 +1,9 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="18.0312" height="12.4937" viewBox="0 0 18.0312 12.4937" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Progress">
+<path d="M0 0C6.76302 8.06482e-08 13.249 2.6866 18.0312 7.46877L13.0063 12.4937C9.55683 9.04418 4.87832 7.10628 0 7.10628V0Z" fill="#EA580C"/>
+<mask id="stroke0_0_29" fill="white">
+<path d="M0 0C6.76302 8.06482e-08 13.249 2.6866 18.0312 7.46877L13.0063 12.4937C9.55683 9.04418 4.87832 7.10628 0 7.10628V0Z"/>
+</mask>
+<path d="M3.04084e-07 0C6.76302 8.06482e-08 13.249 2.6866 18.0312 7.46877L13.0063 12.4937C9.55683 9.04418 4.87832 7.10628 2.19343e-07 7.10628L3.04084e-07 0Z" stroke-width="2" stroke-linecap="square" stroke="#EA580C" mask="url(#stroke0_0_29)"/>
+</g>
+</svg>
