@@ -93,7 +93,7 @@ export function VideoPlayer({
           />
         </div>
         <div className="flex items-center justify-between gap-3">
-          <div className="flex items-center gap-[26px]">
+          <div className="flex shrink-0 items-center gap-4 sm:gap-[26px]">
             <button
               type="button"
               aria-label={playing ? "Pause interview" : "Play interview"}
@@ -113,14 +113,14 @@ export function VideoPlayer({
               <Icon src={volumeIcon} width={24} height={24} />
             </button>
             <span
-              className={`inline-flex h-6 items-center rounded-full px-2.5 text-[12px] text-white ${variant === "transcript" ? "bg-[#4c7ff0]" : variant === "theater" ? "bg-[#1e293b]" : "bg-[rgba(40,40,40,0.6)]"}`}
+              className={`inline-flex h-6 shrink-0 items-center rounded-full px-2.5 text-[12px] whitespace-nowrap text-white ${variant === "transcript" ? "bg-[#4c7ff0]" : variant === "theater" ? "bg-[#1e293b]" : "bg-[rgba(40,40,40,0.6)]"}`}
             >
               {formatClock(currentTime)} / {formatClock(duration)}
             </span>
           </div>
           {variant === "transcript" ? null : (
             <div
-              className={`flex h-6 items-center gap-4 rounded-full px-4 ${variant === "theater" ? "bg-[#1e293b]" : "bg-[rgba(40,40,40,0.6)]"}`}
+              className={`flex h-6 shrink-0 items-center gap-3 rounded-full px-3 sm:gap-4 sm:px-4 ${variant === "theater" ? "bg-[#1e293b]" : "bg-[rgba(40,40,40,0.6)]"}`}
             >
               <button
                 type="button"
